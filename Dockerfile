@@ -1,4 +1,4 @@
-FROM alpine:3.6@sha256:1072e499f3f655a032e88542330cf75b02e7bdf673278f701d7ba61629ee3ebe
+FROM alpine:3.6@sha256:42c18571af45ffc440bd5127de9ad604f1683e4799dbf7bf588aaee8f95c18f1
 
 RUN echo 'syncthing:x:1000:1000::/var/syncthing:/sbin/nologin' >> /etc/passwd \
     && echo 'syncthing:!::0:::::' >> /etc/shadow \
